@@ -65,3 +65,7 @@ letter-spacing: 1px;}
 .list-actions li + li { border-left: 1px solid #3f4c6b; }
 .list-actions a { transition: border-bottom .2s, color .2s; }
 .list-actions a:hover { border-bottom: 1px solid #606c88; color: #606c88; }
+
+
+.tabs .tabs__content { display: none; }
+.tabs .tabs__content.active { display: block; }

@@ -13,26 +13,28 @@
 				<div class="tabs">
 					<div class="tabs__head">
 						<ul>
-							<li>
+							<li class="tab">
 								<h5>
-									<a href="#">Add New Contact</a>
+									<a href="#tab1">Add New Contact</a>
 								</h5>
 							</li>
 
-							<li>
+							<li class="tab">
 								<h5>
-									<a href="#">Search Contact</a>
+									<a href="#tab2">Search Contact</a>
 								</h5>
 							</li>
 
-							<li>
-								<a href="#"><h5>Show Contacts</h5></a>
+							<li class="tab">
+								<h5>
+									<a href="#tab3">Show Contacts</a>
+								</h5>
 							</li>
 						</ul>
 					</div>
 
 					<div class="tabs__body">
-						<div class="tabs__content">
+						<div id="tab1" class="tabs__content active">
 							<div class="form form-add">
 								<div class="form__head">
 									<h2>Add a new contact</h2>
@@ -65,7 +67,7 @@
 							</div>
 						</div>
 
-						<div class="tabs__content">
+						<div id="tab2" class="tabs__content">
 							<div class="form form-search">
 								<div class="form__head">
 									<h2>Search</h2>
@@ -85,7 +87,7 @@
 							</div>
 						</div>
 
-						<div class="tabs__content">
+						<div id="tab3" class="tabs__content">
 							<div class="form form-contact-list">
 								<div class="form__head">
 									<h2>Contact Book</h2>
