@@ -1,0 +1,67 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+body {
+	background: #c9de96; /* Old browsers */
+	/*background: linear-gradient(135deg, #c9de96 0%,#8ab66b 44%,#398235 100%);  */
+	background: linear-gradient(to bottom, #3f4c6b 0%,#606c88 100%);
+	height: 100vh;
+	font-family: Montserrat, sans-serif;
+	color: #3f4c6b;
+}
+
+a { color: inherit; text-decoration: none; }
+
+ol,
+ul { list-style: none; }
+
+h1 {}
+h2 { letter-spacing: 1px; }
+h3 {}
+h4 {}
+h5 { font-size: 16px; }
+h6 {}
+
+input { width: 100%; }
+
+.shell { max-width: 1200px; margin: 0 auto; }
+
+/* Tabs */
+
+.tabs .tabs__head { text-align: center;  }
+.tabs .tabs__head a { display: block; padding: 10px; transition: color .2s; }
+.tabs .tabs__head a:hover { color: #fff; }
+.tabs .tabs__head ul { display: flex; margin: 0 -10px; }
+.tabs .tabs__head li { flex-grow: 1; background: rgba(255,255,255,.4); margin: 0 10px; }
+
+.tabs .tabs__body { margin-top: 10px; background: rgba(255,255,255,.4); }
+.tabs .tabs__content { padding: 50px 30px; }
+
+/* Forms */
+
+.form .form__head { text-align: center; padding-bottom: 30px; }
+.form .form__group { display: flex; margin: 0 -10px; }
+.form .form__row { flex-grow: 1; margin: 0 10px; }
+.form .form__label { display: block; padding-bottom: 10px; display: none; }
+.form .form__field { padding: 15px; font-size: 14px; letter-spacing: 1px; }
+.form .form__actions { margin-top: 10px; }
+
+.form .form__btn {  padding: 15px; background: #606c88; border: 0; cursor: pointer; transition: background .2s; color: #fff; text-transform: uppercase;
+letter-spacing: 1px;}
+.form .form__btn:hover { background: #3f4c6b; }
+
+/* Contact List */
+
+.cols { display: flex; }
+.col { padding: 0 10px; width: 23%; }
+.col-size1 { width: 8%; }
+
+.contact-list { text-align: left; }
+.contact-list .contact__titles { font-weight: bold; font-size: 16px;  padding: 10px 0; border-bottom: 1px solid #3f4c6b; border-top: 1px solid #3f4c6b; }
+.contact-list .contact__record { padding-top: 10px; }
+
+/* List actions*/
+.list-actions { display: flex; margin: 0 -15px; }
+.list-actions li { padding: 0 15px; }
+.list-actions li + li { border-left: 1px solid #3f4c6b; }
+.list-actions a { transition: border-bottom .2s, color .2s; }
+.list-actions a:hover { border-bottom: 1px solid #606c88; color: #606c88; }
