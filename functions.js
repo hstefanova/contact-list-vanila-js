@@ -26,3 +26,30 @@ for( let i = 0; i < tabs.length; i++) {
 	tabs[i].addEventListener('click', onTabClick, false)
 }
 
+/** 
+	ADD NEW CONTACT
+**/
+
+//array of objects
+//1 object is one record - name/phone/email
+
+let contactList = [];
+
+function addContact(event) {
+	let nameValue = document.getElementById('name');
+	let phoneValue = document.getElementById('phone');
+	let emailValue = document.getElementById('email');
+	
+	event.preventDefault()
+
+	contactList.push({
+		name: nameValue.value,
+		phone: phoneValue.value,
+		email: emailValue.value
+	})
+
+	console.log(contactList)	
+}
+
+let addContactSubmitBtn = document.getElementById('addContactSubmitBtn');
+addContactSubmitBtn.addEventListener('click', addContact, false)
