@@ -31,9 +31,9 @@ input { width: 100%; }
 .tabs .tabs__head a { display: block; padding: 10px; transition: color .2s; }
 .tabs .tabs__head a:hover { color: #fff; }
 .tabs .tabs__head ul { display: flex; margin: 0 -10px; }
-.tabs .tabs__head li { flex-grow: 1; background: rgba(255,255,255,.4); margin: 0 10px; }
+.tabs .tabs__head li { flex-grow: 1; background: rgba(255,255,255,.4); margin: 0 10px; border-radius: 3px;}
 
-.tabs .tabs__body { margin-top: 10px; background: rgba(255,255,255,.4); }
+.tabs .tabs__body { margin-top: 10px; background: rgba(255,255,255,.4); border-radius: 3px; }
 .tabs .tabs__content { padding: 50px 30px; }
 
 /* Forms */
@@ -42,11 +42,10 @@ input { width: 100%; }
 .form .form__group { display: flex; margin: 0 -10px; }
 .form .form__row { flex-grow: 1; margin: 0 10px; }
 .form .form__label { display: block; padding-bottom: 10px; display: none; }
-.form .form__field { padding: 15px; font-size: 14px; letter-spacing: 1px; }
+.form .form__field { padding: 15px; font-size: 14px; letter-spacing: 1px; border-radius: 3px; border: 0; }
 .form .form__actions { margin-top: 10px; }
 
-.form .form__btn {  padding: 15px; background: #606c88; border: 0; cursor: pointer; transition: background .2s; color: #fff; text-transform: uppercase;
-letter-spacing: 1px;}
+.form .form__btn {  padding: 15px; background: #606c88; border-radius: 3px; border: 0; cursor: pointer; transition: background .2s; color: #fff; text-transform: uppercase; letter-spacing: 1px;}
 .form .form__btn:hover { background: #3f4c6b; }
 
 /* Contact List */
